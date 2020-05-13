@@ -1,24 +1,19 @@
-/* Seletor de tipo */
+/* Seletor por tag */
 p {
     text-shadow: -5px -5px 5px red;
 }
 
-/* Seletor de classe */
+/* Seletor por classe */
 .teste-1 {
     color: green;
 }
 
-/* Seletor de pseudo-classe */
-.teste-1:hover {
-    color: purple;
-}
-
-/* Seletor de atributo */
-img[alt="logo"]:hover {
+/* Seletores por atributo */
+img[alt="logo"] {
     height: 128px;
 }
 
-/* Seletor de identificador */
+/* Seletor por ID */
 #teste {
     color: red;
 }
