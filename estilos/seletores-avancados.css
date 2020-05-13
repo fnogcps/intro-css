@@ -1,0 +1,21 @@
+/* Seletor descendente */
+div p {
+    color: orange;
+}
+
+/* Seletor filho */
+span > h1 {
+    color: purple;
+}
+
+/* Seletor de irmãos adjacentes (sibling selectors) */
+div + p {
+    text-shadow: -5px -5px 5px red;
+}
+
+/* Seletor geral de irmãos */
+div ~ p {
+    text-shadow: 15px -5px 5px red;
+    font-size: 32px;
+    color: green;
+}
