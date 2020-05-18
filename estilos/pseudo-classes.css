@@ -1,3 +1,11 @@
 p:hover {
     color: orange;
 }
+
+p:active {
+    color: red;
+}
+
+h1:first-child {
+    color: green;
+}
